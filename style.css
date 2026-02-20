@@ -1,0 +1,126 @@
+/* --- Variables y Reset (Mismo estilo que tu portfolio) --- */
+:root {
+    --bg-gradient-start: #0f172a;
+    --bg-gradient-end: #1e3a8a;
+    --text-color: #e2e8f0;
+    --heading-color: #ffffff;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --accent-color: #38bdf8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+    color: var(--text-color);
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* --- Navegación Superior --- */
+.back-nav {
+    margin-bottom: 3rem;
+}
+
+.btn-back {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.2s ease;
+}
+
+.btn-back:hover {
+    color: var(--heading-color);
+    text-decoration: underline;
+}
+
+/* --- Hero Mini --- */
+.hero-mini {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.hero-mini h1 {
+    font-size: 3rem;
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: var(--accent-color);
+}
+
+.hero-mini .bio {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+/* --- Grid de Lenguajes --- */
+.lang-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Tarjetas de Lenguaje Clickables */
+.lang-card {
+    display: block;
+    background-color: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--text-color);
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.lang-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-color);
+    background-color: rgba(56, 189, 248, 0.05);
+}
+
+/* Iconos circulares simulados */
+.lang-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--accent-color);
+    color: var(--bg-gradient-start);
+    font-size: 1.5rem;
+    font-weight: 900;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem auto;
+}
+
+.lang-card h3 {
+    color: var(--heading-color);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.lang-card p {
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .hero-mini h1 { font-size: 2rem; }
+}
