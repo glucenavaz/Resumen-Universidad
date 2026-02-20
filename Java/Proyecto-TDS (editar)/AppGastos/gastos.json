@@ -1,0 +1,3472 @@
+[ {
+  "concepto" : "Factura agua",
+  "cantidad" : 40.0,
+  "categoria" : {
+    "categoria" : "Hogar"
+  },
+  "fecha" : [ 2026, 1, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena pizzería con amigos",
+  "cantidad" : 25.0,
+  "categoria" : {
+    "categoria" : "Ocio"
+  },
+  "fecha" : [ 2025, 1, 15 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Factura de la Luz",
+  "cantidad" : 65.3,
+  "categoria" : {
+    "categoria" : "Hogar"
+  },
+  "fecha" : [ 2025, 1, 20 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cine y palomitas",
+  "cantidad" : 18.0,
+  "categoria" : {
+    "categoria" : "Ocio"
+  },
+  "fecha" : [ 2025, 2, 14 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Gasolina coche",
+  "cantidad" : 55.0,
+  "categoria" : {
+    "categoria" : "Transporte"
+  },
+  "fecha" : [ 2025, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler piso Marzo",
+  "cantidad" : 750.0,
+  "categoria" : {
+    "categoria" : "Hogar"
+  },
+  "fecha" : [ 2025, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Regalo cumpleaños mamá",
+  "cantidad" : 45.0,
+  "categoria" : {
+    "categoria" : "Otros"
+  },
+  "fecha" : [ 2025, 4, 10 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Café Starbucks",
+  "cantidad" : 4.5,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "fecha" : [ 2025, 5, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Libro de programación",
+  "cantidad" : 36.0,
+  "categoria" : {
+    "categoria" : "Educación"
+  },
+  "fecha" : [ 2025, 6, 15 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Hotel vacaciones verano",
+  "cantidad" : 450.0,
+  "categoria" : {
+    "categoria" : "Ocio"
+  },
+  "fecha" : [ 2025, 8, 10 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Material de oficina",
+  "cantidad" : 15.0,
+  "categoria" : {
+    "categoria" : "Educación"
+  },
+  "fecha" : [ 2024, 12, 15 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena de Navidad empresa",
+  "cantidad" : 30.0,
+  "categoria" : {
+    "categoria" : "Ocio"
+  },
+  "fecha" : [ 2024, 12, 20 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Uber al aeropuerto",
+  "cantidad" : 22.5,
+  "categoria" : {
+    "categoria" : "Transporte"
+  },
+  "fecha" : [ 2024, 11, 5 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Reparación lavadora",
+  "cantidad" : 120.0,
+  "categoria" : {
+    "categoria" : "Hogar"
+  },
+  "fecha" : [ 2024, 10, 12 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Reserva Hotel",
+  "cantidad" : 600.0,
+  "categoria" : {
+    "categoria" : "Viajes"
+  },
+  "fecha" : [ 2025, 12, 28 ],
+  "cuenta" : {
+    "nombre" : "Viaje a Mallorca",
+    "miembros" : [ {
+      "nombre" : "Ana",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Luis",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Yo",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Ana",
+    "saldo" : 0.0,
+    "porcentaje" : -1.0
+  }
+}, {
+  "concepto" : "Cena Bienvenida",
+  "cantidad" : 150.0,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "fecha" : [ 2025, 12, 29 ],
+  "cuenta" : {
+    "nombre" : "Viaje a Mallorca",
+    "miembros" : [ {
+      "nombre" : "Ana",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Luis",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Yo",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Luis",
+    "saldo" : 0.0,
+    "porcentaje" : -1.0
+  }
+}, {
+  "concepto" : "Alquiler Coche",
+  "cantidad" : 200.0,
+  "categoria" : {
+    "categoria" : "Viajes"
+  },
+  "fecha" : [ 2025, 12, 30 ],
+  "cuenta" : {
+    "nombre" : "Viaje a Mallorca",
+    "miembros" : [ {
+      "nombre" : "Ana",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Luis",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Yo",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Yo",
+    "saldo" : 0.0,
+    "porcentaje" : -1.0
+  }
+}, {
+  "concepto" : "algo",
+  "cantidad" : 5.0,
+  "categoria" : {
+    "categoria" : "Transporte"
+  },
+  "fecha" : [ 2025, 12, 30 ],
+  "cuenta" : {
+    "nombre" : "Viaje a Mallorca",
+    "miembros" : [ {
+      "nombre" : "Ana",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Luis",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Yo",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Yo",
+    "saldo" : 0.0,
+    "porcentaje" : -1.0
+  }
+}, {
+  "concepto" : "2",
+  "cantidad" : 2.0,
+  "categoria" : {
+    "categoria" : "Transporte"
+  },
+  "fecha" : [ 2025, 12, 30 ],
+  "cuenta" : {
+    "nombre" : "Viaje a Mallorca",
+    "miembros" : [ {
+      "nombre" : "Ana",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Luis",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Yo",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Yo",
+    "saldo" : 0.0,
+    "porcentaje" : -1.0
+  }
+}, {
+  "concepto" : "Comida",
+  "cantidad" : 50.0,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "fecha" : [ 2025, 12, 31 ],
+  "cuenta" : {
+    "nombre" : "Viaje a Mallorca",
+    "miembros" : [ {
+      "nombre" : "Ana",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Luis",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Yo",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Ana",
+    "saldo" : 0.0,
+    "porcentaje" : -1.0
+  }
+}, {
+  "concepto" : "Alquilar piso",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "Hogar"
+  },
+  "fecha" : [ 2025, 12, 31 ],
+  "cuenta" : {
+    "nombre" : "Gastos viajes",
+    "miembros" : [ {
+      "nombre" : "Alberto",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Eduardo",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Eduardo",
+    "saldo" : 0.0,
+    "porcentaje" : -1.0
+  }
+}, {
+  "concepto" : "Comprar jamón",
+  "cantidad" : 45.0,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "fecha" : [ 2025, 12, 31 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena",
+  "cantidad" : 23.0,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "fecha" : [ 2025, 12, 31 ],
+  "cuenta" : {
+    "nombre" : "Viaje a Mallorca",
+    "miembros" : [ {
+      "nombre" : "Ana",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Luis",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Yo",
+      "saldo" : 0.0,
+      "porcentaje" : -1.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Luis",
+    "saldo" : 0.0,
+    "porcentaje" : -1.0
+  }
+}, {
+  "concepto" : "rewqerf",
+  "cantidad" : 33.0,
+  "categoria" : {
+    "categoria" : "Transporte"
+  },
+  "fecha" : [ 2025, 12, 31 ],
+  "cuenta" : {
+    "nombre" : "miregmiogme",
+    "miembros" : [ {
+      "nombre" : "rgegwer",
+      "saldo" : 0.0,
+      "porcentaje" : 44.0
+    }, {
+      "nombre" : "ergewrg",
+      "saldo" : 0.0,
+      "porcentaje" : 56.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "ergewrg",
+    "saldo" : 0.0,
+    "porcentaje" : 56.0
+  }
+}, {
+  "concepto" : "Bebidas",
+  "cantidad" : 15.0,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "fecha" : [ 2025, 12, 31 ],
+  "cuenta" : {
+    "nombre" : "Comida navidad",
+    "miembros" : [ {
+      "nombre" : "Guille",
+      "saldo" : 0.0,
+      "porcentaje" : 40.0
+    }, {
+      "nombre" : "Benjamin",
+      "saldo" : 0.0,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paula",
+      "saldo" : 0.0,
+      "porcentaje" : 40.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Benjamin",
+    "saldo" : 0.0,
+    "porcentaje" : 20.0
+  }
+}, {
+  "concepto" : "Entrantes",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "fecha" : [ 2025, 12, 31 ],
+  "cuenta" : {
+    "nombre" : "Comida navidad",
+    "miembros" : [ {
+      "nombre" : "Guille",
+      "saldo" : 0.0,
+      "porcentaje" : 40.0
+    }, {
+      "nombre" : "Benjamin",
+      "saldo" : 0.0,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paula",
+      "saldo" : 0.0,
+      "porcentaje" : 40.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Paula",
+    "saldo" : 0.0,
+    "porcentaje" : 40.0
+  }
+}, {
+  "concepto" : "Platos principales",
+  "cantidad" : 50.0,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "fecha" : [ 2025, 12, 31 ],
+  "cuenta" : {
+    "nombre" : "Comida navidad",
+    "miembros" : [ {
+      "nombre" : "Guille",
+      "saldo" : 0.0,
+      "porcentaje" : 40.0
+    }, {
+      "nombre" : "Benjamin",
+      "saldo" : 0.0,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paula",
+      "saldo" : 0.0,
+      "porcentaje" : 40.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Guille",
+    "saldo" : 0.0,
+    "porcentaje" : 40.0
+  }
+}, {
+  "concepto" : "Entrantes",
+  "cantidad" : 25.0,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "fecha" : [ 2025, 12, 31 ],
+  "cuenta" : {
+    "nombre" : "Comidad navidad",
+    "miembros" : [ {
+      "nombre" : "Guille",
+      "saldo" : 23.0,
+      "porcentaje" : 30.0
+    }, {
+      "nombre" : "David",
+      "saldo" : 7.0,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paula",
+      "saldo" : -30.0,
+      "porcentaje" : 50.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "David",
+    "saldo" : 7.0,
+    "porcentaje" : 20.0
+  }
+}, {
+  "concepto" : "Cena año nuevo",
+  "cantidad" : 200.0,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "fecha" : [ 2026, 1, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Gasolina boeing765",
+  "cantidad" : 300.0,
+  "categoria" : {
+    "categoria" : "Transporte"
+  },
+  "fecha" : [ 2026, 1, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "botas futbol",
+  "cantidad" : 75.0,
+  "categoria" : {
+    "categoria" : "Deportes"
+  },
+  "fecha" : [ 2026, 1, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Comprar regalo",
+  "cantidad" : 10.0,
+  "categoria" : {
+    "categoria" : "Ocio"
+  },
+  "fecha" : [ 2026, 1, 1 ],
+  "cuenta" : {
+    "nombre" : "Viaje a Mallorca",
+    "miembros" : [ {
+      "nombre" : "Ana",
+      "saldo" : 0.1,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Luis",
+      "saldo" : 10.1,
+      "porcentaje" : -1.0
+    }, {
+      "nombre" : "Yo",
+      "saldo" : 0.1,
+      "porcentaje" : -1.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Luis",
+    "saldo" : 10.1,
+    "porcentaje" : -1.0
+  }
+}, {
+  "concepto" : "A",
+  "cantidad" : 100.0,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "fecha" : [ 2026, 1, 1 ],
+  "cuenta" : {
+    "nombre" : "Comidad navidad",
+    "miembros" : [ {
+      "nombre" : "Guille",
+      "saldo" : 342.5,
+      "porcentaje" : 30.0
+    }, {
+      "nombre" : "David",
+      "saldo" : -80.0,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paula",
+      "saldo" : -262.5,
+      "porcentaje" : 50.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Guille",
+    "saldo" : 342.5,
+    "porcentaje" : 30.0
+  }
+}, {
+  "concepto" : "VB",
+  "cantidad" : 100.0,
+  "categoria" : {
+    "categoria" : "Transporte"
+  },
+  "fecha" : [ 2026, 1, 1 ],
+  "cuenta" : {
+    "nombre" : "Comidad navidad",
+    "miembros" : [ {
+      "nombre" : "Guille",
+      "saldo" : 342.5,
+      "porcentaje" : 30.0
+    }, {
+      "nombre" : "David",
+      "saldo" : -80.0,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paula",
+      "saldo" : -262.5,
+      "porcentaje" : 50.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Guille",
+    "saldo" : 342.5,
+    "porcentaje" : 30.0
+  }
+}, {
+  "concepto" : "Crear cuenta",
+  "cantidad" : 50.0,
+  "categoria" : {
+    "categoria" : "Transporte"
+  },
+  "fecha" : [ 2026, 1, 1 ],
+  "cuenta" : {
+    "nombre" : "TDS",
+    "miembros" : [ {
+      "nombre" : "Eduardo",
+      "saldo" : -40.0,
+      "porcentaje" : 40.0
+    }, {
+      "nombre" : "Pedro",
+      "saldo" : -36.0,
+      "porcentaje" : 36.0
+    }, {
+      "nombre" : "Gonzalo",
+      "saldo" : 76.0,
+      "porcentaje" : 24.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Gonzalo",
+    "saldo" : 76.0,
+    "porcentaje" : 24.0
+  }
+}, {
+  "concepto" : "Algo",
+  "cantidad" : 50.0,
+  "categoria" : {
+    "categoria" : "Ocio"
+  },
+  "fecha" : [ 2026, 1, 1 ],
+  "cuenta" : {
+    "nombre" : "addad",
+    "miembros" : [ {
+      "nombre" : "wewqd",
+      "saldo" : 38.0,
+      "porcentaje" : 24.0
+    }, {
+      "nombre" : "dad",
+      "saldo" : -12.5,
+      "porcentaje" : 25.0
+    }, {
+      "nombre" : "daadwe",
+      "saldo" : -12.5,
+      "porcentaje" : 25.0
+    }, {
+      "nombre" : "sasd",
+      "saldo" : -13.0,
+      "porcentaje" : 26.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "wewqd",
+    "saldo" : 38.0,
+    "porcentaje" : 24.0
+  }
+}, {
+  "concepto" : "adsfa",
+  "cantidad" : 23.0,
+  "categoria" : {
+    "categoria" : "Comida familiar"
+  },
+  "fecha" : [ 2026, 1, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "ADWE",
+  "cantidad" : 200.0,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "fecha" : [ 2026, 1, 1 ],
+  "cuenta" : {
+    "nombre" : "SFD",
+    "miembros" : [ {
+      "nombre" : "ADADSAEW",
+      "saldo" : -66.66666666666667,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "DADS",
+      "saldo" : 133.33333333333331,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "DAWA",
+      "saldo" : -66.66666666666667,
+      "porcentaje" : 33.333333333333336
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "DADS",
+    "saldo" : 133.33333333333331,
+    "porcentaje" : 33.333333333333336
+  }
+}, {
+  "concepto" : "Desayuno en cafetería",
+  "cantidad" : 4.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billetes de metro",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de película en streaming",
+  "cantidad" : 3.99,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje en gasolinera",
+  "cantidad" : 45.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pizza para cenar",
+  "cantidad" : 18.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Partida de billar en bar",
+  "cantidad" : 12.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de autobús urbano",
+  "cantidad" : 1.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de taza personalizada",
+  "cantidad" : 9.9,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra en supermercado",
+  "cantidad" : 32.4,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Juego para móvil",
+  "cantidad" : 2.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 27 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena de hamburguesas",
+  "cantidad" : 21.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje coche compartido",
+  "cantidad" : 30.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cambio de bombilla del coche",
+  "cantidad" : 7.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Recarga tarjeta de transporte",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Bocadillo y refresco",
+  "cantidad" : 5.25,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cerveza en pub",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de vitaminas",
+  "cantidad" : 12.75,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 25 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de música digital",
+  "cantidad" : 4.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena en restaurante",
+  "cantidad" : 28.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Taxi nocturno",
+  "cantidad" : 11.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de tarjeta regalo",
+  "cantidad" : 15.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pedido de sushi a domicilio",
+  "cantidad" : 24.6,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje rápido",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de tren",
+  "cantidad" : 14.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 22 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de videojuego",
+  "cantidad" : 5.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de herramientas básicas",
+  "cantidad" : 19.8,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de termómetro digital",
+  "cantidad" : 8.4,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Café y bollería",
+  "cantidad" : 3.2,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Entradas para el cine",
+  "cantidad" : 16.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 20 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Desayuno en cafetería",
+  "cantidad" : 4.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billetes de metro",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de película en streaming",
+  "cantidad" : 3.99,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje en gasolinera",
+  "cantidad" : 45.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pizza para cenar",
+  "cantidad" : 18.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Partida de billar en bar",
+  "cantidad" : 12.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de autobús urbano",
+  "cantidad" : 1.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de taza personalizada",
+  "cantidad" : 9.9,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra en supermercado",
+  "cantidad" : 32.4,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Juego para móvil",
+  "cantidad" : 2.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 27 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena de hamburguesas",
+  "cantidad" : 21.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje coche compartido",
+  "cantidad" : 30.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cambio de bombilla del coche",
+  "cantidad" : 7.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Recarga tarjeta de transporte",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Bocadillo y refresco",
+  "cantidad" : 5.25,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cerveza en pub",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de vitaminas",
+  "cantidad" : 12.75,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 25 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de música digital",
+  "cantidad" : 4.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena en restaurante",
+  "cantidad" : 28.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Taxi nocturno",
+  "cantidad" : 11.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de tarjeta regalo",
+  "cantidad" : 15.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pedido de sushi a domicilio",
+  "cantidad" : 24.6,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje rápido",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de tren",
+  "cantidad" : 14.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 22 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de videojuego",
+  "cantidad" : 5.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de herramientas básicas",
+  "cantidad" : 19.8,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de termómetro digital",
+  "cantidad" : 8.4,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Café y bollería",
+  "cantidad" : 3.2,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Entradas para el cine",
+  "cantidad" : 16.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 20 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Desayuno en cafetería",
+  "cantidad" : 4.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billetes de metro",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de película en streaming",
+  "cantidad" : 3.99,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje en gasolinera",
+  "cantidad" : 45.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pizza para cenar",
+  "cantidad" : 18.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Partida de billar en bar",
+  "cantidad" : 12.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de autobús urbano",
+  "cantidad" : 1.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de taza personalizada",
+  "cantidad" : 9.9,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra en supermercado",
+  "cantidad" : 32.4,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Juego para móvil",
+  "cantidad" : 2.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 27 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena de hamburguesas",
+  "cantidad" : 21.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje coche compartido",
+  "cantidad" : 30.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cambio de bombilla del coche",
+  "cantidad" : 7.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Recarga tarjeta de transporte",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Bocadillo y refresco",
+  "cantidad" : 5.25,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cerveza en pub",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de vitaminas",
+  "cantidad" : 12.75,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 25 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de música digital",
+  "cantidad" : 4.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena en restaurante",
+  "cantidad" : 28.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Taxi nocturno",
+  "cantidad" : 11.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de tarjeta regalo",
+  "cantidad" : 15.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pedido de sushi a domicilio",
+  "cantidad" : 24.6,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje rápido",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de tren",
+  "cantidad" : 14.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 22 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de videojuego",
+  "cantidad" : 5.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de herramientas básicas",
+  "cantidad" : 19.8,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de termómetro digital",
+  "cantidad" : 8.4,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Café y bollería",
+  "cantidad" : 3.2,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Entradas para el cine",
+  "cantidad" : 16.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 20 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Desayuno en cafetería",
+  "cantidad" : 4.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billetes de metro",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de película en streaming",
+  "cantidad" : 3.99,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje en gasolinera",
+  "cantidad" : 45.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pizza para cenar",
+  "cantidad" : 18.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Partida de billar en bar",
+  "cantidad" : 12.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de autobús urbano",
+  "cantidad" : 1.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de taza personalizada",
+  "cantidad" : 9.9,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra en supermercado",
+  "cantidad" : 32.4,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Juego para móvil",
+  "cantidad" : 2.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 27 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena de hamburguesas",
+  "cantidad" : 21.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje coche compartido",
+  "cantidad" : 30.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cambio de bombilla del coche",
+  "cantidad" : 7.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Recarga tarjeta de transporte",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Bocadillo y refresco",
+  "cantidad" : 5.25,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cerveza en pub",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de vitaminas",
+  "cantidad" : 12.75,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 25 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de música digital",
+  "cantidad" : 4.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena en restaurante",
+  "cantidad" : 28.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Taxi nocturno",
+  "cantidad" : 11.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de tarjeta regalo",
+  "cantidad" : 15.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pedido de sushi a domicilio",
+  "cantidad" : 24.6,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje rápido",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de tren",
+  "cantidad" : 14.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 22 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de videojuego",
+  "cantidad" : 5.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de herramientas básicas",
+  "cantidad" : 19.8,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de termómetro digital",
+  "cantidad" : 8.4,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Café y bollería",
+  "cantidad" : 3.2,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Entradas para el cine",
+  "cantidad" : 16.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 20 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Desayuno en cafetería",
+  "cantidad" : 4.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billetes de metro",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de película en streaming",
+  "cantidad" : 3.99,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje en gasolinera",
+  "cantidad" : 45.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pizza para cenar",
+  "cantidad" : 18.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Partida de billar en bar",
+  "cantidad" : 12.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de autobús urbano",
+  "cantidad" : 1.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de taza personalizada",
+  "cantidad" : 9.9,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra en supermercado",
+  "cantidad" : 32.4,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Juego para móvil",
+  "cantidad" : 2.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 27 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena de hamburguesas",
+  "cantidad" : 21.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje coche compartido",
+  "cantidad" : 30.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cambio de bombilla del coche",
+  "cantidad" : 7.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Recarga tarjeta de transporte",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Bocadillo y refresco",
+  "cantidad" : 5.25,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cerveza en pub",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de vitaminas",
+  "cantidad" : 12.75,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 25 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de música digital",
+  "cantidad" : 4.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena en restaurante",
+  "cantidad" : 28.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Taxi nocturno",
+  "cantidad" : 11.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de tarjeta regalo",
+  "cantidad" : 15.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pedido de sushi a domicilio",
+  "cantidad" : 24.6,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje rápido",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de tren",
+  "cantidad" : 14.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 22 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de videojuego",
+  "cantidad" : 5.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de herramientas básicas",
+  "cantidad" : 19.8,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de termómetro digital",
+  "cantidad" : 8.4,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Café y bollería",
+  "cantidad" : 3.2,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Entradas para el cine",
+  "cantidad" : 16.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 20 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Desayuno en cafetería",
+  "cantidad" : 4.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billetes de metro",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de película en streaming",
+  "cantidad" : 3.99,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje en gasolinera",
+  "cantidad" : 45.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pizza para cenar",
+  "cantidad" : 18.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Partida de billar en bar",
+  "cantidad" : 12.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de autobús urbano",
+  "cantidad" : 1.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de taza personalizada",
+  "cantidad" : 9.9,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra en supermercado",
+  "cantidad" : 32.4,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Juego para móvil",
+  "cantidad" : 2.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 27 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena de hamburguesas",
+  "cantidad" : 21.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje coche compartido",
+  "cantidad" : 30.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cambio de bombilla del coche",
+  "cantidad" : 7.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Recarga tarjeta de transporte",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Bocadillo y refresco",
+  "cantidad" : 5.25,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cerveza en pub",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de vitaminas",
+  "cantidad" : 12.75,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 25 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de música digital",
+  "cantidad" : 4.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena en restaurante",
+  "cantidad" : 28.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Taxi nocturno",
+  "cantidad" : 11.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de tarjeta regalo",
+  "cantidad" : 15.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pedido de sushi a domicilio",
+  "cantidad" : 24.6,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje rápido",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de tren",
+  "cantidad" : 14.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 22 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de videojuego",
+  "cantidad" : 5.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de herramientas básicas",
+  "cantidad" : 19.8,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de termómetro digital",
+  "cantidad" : 8.4,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Café y bollería",
+  "cantidad" : 3.2,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Entradas para el cine",
+  "cantidad" : 16.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 20 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Desayuno en cafetería",
+  "cantidad" : 4.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billetes de metro",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de película en streaming",
+  "cantidad" : 3.99,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje en gasolinera",
+  "cantidad" : 45.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pizza para cenar",
+  "cantidad" : 18.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Partida de billar en bar",
+  "cantidad" : 12.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de autobús urbano",
+  "cantidad" : 1.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de taza personalizada",
+  "cantidad" : 9.9,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra en supermercado",
+  "cantidad" : 32.4,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Juego para móvil",
+  "cantidad" : 2.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 27 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena de hamburguesas",
+  "cantidad" : 21.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje coche compartido",
+  "cantidad" : 30.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cambio de bombilla del coche",
+  "cantidad" : 7.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Recarga tarjeta de transporte",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Bocadillo y refresco",
+  "cantidad" : 5.25,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cerveza en pub",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de vitaminas",
+  "cantidad" : 12.75,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 25 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de música digital",
+  "cantidad" : 4.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena en restaurante",
+  "cantidad" : 28.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Taxi nocturno",
+  "cantidad" : 11.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de tarjeta regalo",
+  "cantidad" : 15.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pedido de sushi a domicilio",
+  "cantidad" : 24.6,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje rápido",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de tren",
+  "cantidad" : 14.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 22 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de videojuego",
+  "cantidad" : 5.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de herramientas básicas",
+  "cantidad" : 19.8,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de termómetro digital",
+  "cantidad" : 8.4,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Café y bollería",
+  "cantidad" : 3.2,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Entradas para el cine",
+  "cantidad" : 16.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 20 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Neumaticos",
+  "cantidad" : 600.0,
+  "categoria" : {
+    "categoria" : "Coche"
+  },
+  "fecha" : [ 2026, 1, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Desayuno en cafetería",
+  "cantidad" : 4.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billetes de metro",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de película en streaming",
+  "cantidad" : 3.99,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje en gasolinera",
+  "cantidad" : 45.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pizza para cenar",
+  "cantidad" : 18.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Partida de billar en bar",
+  "cantidad" : 12.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de autobús urbano",
+  "cantidad" : 1.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de taza personalizada",
+  "cantidad" : 9.9,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra en supermercado",
+  "cantidad" : 32.4,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Juego para móvil",
+  "cantidad" : 2.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 27 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena de hamburguesas",
+  "cantidad" : 21.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje coche compartido",
+  "cantidad" : 30.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cambio de bombilla del coche",
+  "cantidad" : 7.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Recarga tarjeta de transporte",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Bocadillo y refresco",
+  "cantidad" : 5.25,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cerveza en pub",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de vitaminas",
+  "cantidad" : 12.75,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 25 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de música digital",
+  "cantidad" : 4.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cena en restaurante",
+  "cantidad" : 28.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Taxi nocturno",
+  "cantidad" : 11.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de tarjeta regalo",
+  "cantidad" : 15.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Pedido de sushi a domicilio",
+  "cantidad" : 24.6,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje rápido",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de tren",
+  "cantidad" : 14.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 22 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de videojuego",
+  "cantidad" : 5.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de herramientas básicas",
+  "cantidad" : 19.8,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de termómetro digital",
+  "cantidad" : 8.4,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Café y bollería",
+  "cantidad" : 3.2,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Entradas para el cine",
+  "cantidad" : 16.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 20 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Desayuno en cafetería",
+  "cantidad" : 4.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje en gasolinera",
+  "cantidad" : 45.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Billete de autobús urbano",
+  "cantidad" : 1.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Juego para móvil",
+  "cantidad" : 2.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 27 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Cambio de bombilla del coche",
+  "cantidad" : 7.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Bocadillo y refresco",
+  "cantidad" : 5.25,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Compra de vitaminas",
+  "cantidad" : 12.75,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 25 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Taxi nocturno",
+  "cantidad" : 11.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Repostaje rápido",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de videojuego",
+  "cantidad" : 5.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Café y bollería",
+  "cantidad" : 3.2,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : null,
+  "pagador" : null
+}, {
+  "concepto" : "Alquiler de película en streaming",
+  "cantidad" : 3.99,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : {
+    "nombre" : "Compartida 2",
+    "miembros" : [ {
+      "nombre" : "Bob",
+      "saldo" : 5.033999999999999,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Betty",
+      "saldo" : 1.944,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Me",
+      "saldo" : -22.466,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paco",
+      "saldo" : -5.456000000000001,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Greta",
+      "saldo" : 20.944000000000003,
+      "porcentaje" : 20.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Me",
+    "saldo" : -22.466,
+    "porcentaje" : 20.0
+  }
+}, {
+  "concepto" : "Partida de billar en bar",
+  "cantidad" : 12.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : {
+    "nombre" : "Compartida 2",
+    "miembros" : [ {
+      "nombre" : "Bob",
+      "saldo" : 5.033999999999999,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Betty",
+      "saldo" : 1.944,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Me",
+      "saldo" : -22.466,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paco",
+      "saldo" : -5.456000000000001,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Greta",
+      "saldo" : 20.944000000000003,
+      "porcentaje" : 20.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Bob",
+    "saldo" : 5.033999999999999,
+    "porcentaje" : 20.0
+  }
+}, {
+  "concepto" : "Compra en supermercado",
+  "cantidad" : 32.4,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : {
+    "nombre" : "Compartida 2",
+    "miembros" : [ {
+      "nombre" : "Bob",
+      "saldo" : 5.033999999999999,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Betty",
+      "saldo" : 1.944,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Me",
+      "saldo" : -22.466,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paco",
+      "saldo" : -5.456000000000001,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Greta",
+      "saldo" : 20.944000000000003,
+      "porcentaje" : 20.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Greta",
+    "saldo" : 20.944000000000003,
+    "porcentaje" : 20.0
+  }
+}, {
+  "concepto" : "Cena de hamburguesas",
+  "cantidad" : 21.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : {
+    "nombre" : "Compartida 2",
+    "miembros" : [ {
+      "nombre" : "Bob",
+      "saldo" : 5.033999999999999,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Betty",
+      "saldo" : 1.944,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Me",
+      "saldo" : -22.466,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paco",
+      "saldo" : -5.456000000000001,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Greta",
+      "saldo" : 20.944000000000003,
+      "porcentaje" : 20.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Paco",
+    "saldo" : -5.456000000000001,
+    "porcentaje" : 20.0
+  }
+}, {
+  "concepto" : "Recarga tarjeta de transporte",
+  "cantidad" : 20.0,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : {
+    "nombre" : "Compartida 2",
+    "miembros" : [ {
+      "nombre" : "Bob",
+      "saldo" : 5.033999999999999,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Betty",
+      "saldo" : 1.944,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Me",
+      "saldo" : -22.466,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paco",
+      "saldo" : -5.456000000000001,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Greta",
+      "saldo" : 20.944000000000003,
+      "porcentaje" : 20.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Betty",
+    "saldo" : 1.944,
+    "porcentaje" : 20.0
+  }
+}, {
+  "concepto" : "Compra de música digital",
+  "cantidad" : 4.99,
+  "categoria" : {
+    "categoria" : "con paypal"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : {
+    "nombre" : "Compartida 2",
+    "miembros" : [ {
+      "nombre" : "Bob",
+      "saldo" : 5.033999999999999,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Betty",
+      "saldo" : 1.944,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Me",
+      "saldo" : -22.466,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paco",
+      "saldo" : -5.456000000000001,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Greta",
+      "saldo" : 20.944000000000003,
+      "porcentaje" : 20.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Bob",
+    "saldo" : 5.033999999999999,
+    "porcentaje" : 20.0
+  }
+}, {
+  "concepto" : "Compra de tarjeta regalo",
+  "cantidad" : 15.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : {
+    "nombre" : "Compartida 2",
+    "miembros" : [ {
+      "nombre" : "Bob",
+      "saldo" : 5.033999999999999,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Betty",
+      "saldo" : 1.944,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Me",
+      "saldo" : -22.466,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paco",
+      "saldo" : -5.456000000000001,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Greta",
+      "saldo" : 20.944000000000003,
+      "porcentaje" : 20.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Greta",
+    "saldo" : 20.944000000000003,
+    "porcentaje" : 20.0
+  }
+}, {
+  "concepto" : "Billete de tren",
+  "cantidad" : 14.5,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 22 ],
+  "cuenta" : {
+    "nombre" : "Compartida 2",
+    "miembros" : [ {
+      "nombre" : "Bob",
+      "saldo" : 5.033999999999999,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Betty",
+      "saldo" : 1.944,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Me",
+      "saldo" : -22.466,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paco",
+      "saldo" : -5.456000000000001,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Greta",
+      "saldo" : 20.944000000000003,
+      "porcentaje" : 20.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Bob",
+    "saldo" : 5.033999999999999,
+    "porcentaje" : 20.0
+  }
+}, {
+  "concepto" : "Compra de termómetro digital",
+  "cantidad" : 8.4,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : {
+    "nombre" : "Compartida 2",
+    "miembros" : [ {
+      "nombre" : "Bob",
+      "saldo" : 5.033999999999999,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Betty",
+      "saldo" : 1.944,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Me",
+      "saldo" : -22.466,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Paco",
+      "saldo" : -5.456000000000001,
+      "porcentaje" : 20.0
+    }, {
+      "nombre" : "Greta",
+      "saldo" : 20.944000000000003,
+      "porcentaje" : 20.0
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Betty",
+    "saldo" : 1.944,
+    "porcentaje" : 20.0
+  }
+}, {
+  "concepto" : "Billetes de metro",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 3, 2 ],
+  "cuenta" : {
+    "nombre" : "Compartida 1",
+    "miembros" : [ {
+      "nombre" : "Anthony",
+      "saldo" : 12.999999999999996,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Stephani",
+      "saldo" : -1.1000000000000076,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Mark",
+      "saldo" : -11.90000000000001,
+      "porcentaje" : 33.333333333333336
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Anthony",
+    "saldo" : 12.999999999999996,
+    "porcentaje" : 33.333333333333336
+  }
+}, {
+  "concepto" : "Pizza para cenar",
+  "cantidad" : 18.5,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 3, 1 ],
+  "cuenta" : {
+    "nombre" : "Compartida 1",
+    "miembros" : [ {
+      "nombre" : "Anthony",
+      "saldo" : 12.999999999999996,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Stephani",
+      "saldo" : -1.1000000000000076,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Mark",
+      "saldo" : -11.90000000000001,
+      "porcentaje" : 33.333333333333336
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Stephani",
+    "saldo" : -1.1000000000000076,
+    "porcentaje" : 33.333333333333336
+  }
+}, {
+  "concepto" : "Compra de taza personalizada",
+  "cantidad" : 9.9,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 28 ],
+  "cuenta" : {
+    "nombre" : "Compartida 1",
+    "miembros" : [ {
+      "nombre" : "Anthony",
+      "saldo" : 12.999999999999996,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Stephani",
+      "saldo" : -1.1000000000000076,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Mark",
+      "saldo" : -11.90000000000001,
+      "porcentaje" : 33.333333333333336
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Mark",
+    "saldo" : -11.90000000000001,
+    "porcentaje" : 33.333333333333336
+  }
+}, {
+  "concepto" : "Repostaje coche compartido",
+  "cantidad" : 30.0,
+  "categoria" : {
+    "categoria" : "efectivo"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : {
+    "nombre" : "Compartida 1",
+    "miembros" : [ {
+      "nombre" : "Anthony",
+      "saldo" : 12.999999999999996,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Stephani",
+      "saldo" : -1.1000000000000076,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Mark",
+      "saldo" : -11.90000000000001,
+      "porcentaje" : 33.333333333333336
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Anthony",
+    "saldo" : 12.999999999999996,
+    "porcentaje" : 33.333333333333336
+  }
+}, {
+  "concepto" : "Cerveza en pub",
+  "cantidad" : 6.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 26 ],
+  "cuenta" : {
+    "nombre" : "Compartida 1",
+    "miembros" : [ {
+      "nombre" : "Anthony",
+      "saldo" : 12.999999999999996,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Stephani",
+      "saldo" : -1.1000000000000076,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Mark",
+      "saldo" : -11.90000000000001,
+      "porcentaje" : 33.333333333333336
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Mark",
+    "saldo" : -11.90000000000001,
+    "porcentaje" : 33.333333333333336
+  }
+}, {
+  "concepto" : "Cena en restaurante",
+  "cantidad" : 28.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 24 ],
+  "cuenta" : {
+    "nombre" : "Compartida 1",
+    "miembros" : [ {
+      "nombre" : "Anthony",
+      "saldo" : 12.999999999999996,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Stephani",
+      "saldo" : -1.1000000000000076,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Mark",
+      "saldo" : -11.90000000000001,
+      "porcentaje" : 33.333333333333336
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Stephani",
+    "saldo" : -1.1000000000000076,
+    "porcentaje" : 33.333333333333336
+  }
+}, {
+  "concepto" : "Pedido de sushi a domicilio",
+  "cantidad" : 24.6,
+  "categoria" : {
+    "categoria" : "on line"
+  },
+  "fecha" : [ 2022, 2, 23 ],
+  "cuenta" : {
+    "nombre" : "Compartida 1",
+    "miembros" : [ {
+      "nombre" : "Anthony",
+      "saldo" : 12.999999999999996,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Stephani",
+      "saldo" : -1.1000000000000076,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Mark",
+      "saldo" : -11.90000000000001,
+      "porcentaje" : 33.333333333333336
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Anthony",
+    "saldo" : 12.999999999999996,
+    "porcentaje" : 33.333333333333336
+  }
+}, {
+  "concepto" : "Compra de herramientas básicas",
+  "cantidad" : 19.8,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 21 ],
+  "cuenta" : {
+    "nombre" : "Compartida 1",
+    "miembros" : [ {
+      "nombre" : "Anthony",
+      "saldo" : 12.999999999999996,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Stephani",
+      "saldo" : -1.1000000000000076,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Mark",
+      "saldo" : -11.90000000000001,
+      "porcentaje" : 33.333333333333336
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Mark",
+    "saldo" : -11.90000000000001,
+    "porcentaje" : 33.333333333333336
+  }
+}, {
+  "concepto" : "Entradas para el cine",
+  "cantidad" : 16.0,
+  "categoria" : {
+    "categoria" : "con tarjeta"
+  },
+  "fecha" : [ 2022, 2, 20 ],
+  "cuenta" : {
+    "nombre" : "Compartida 1",
+    "miembros" : [ {
+      "nombre" : "Anthony",
+      "saldo" : 12.999999999999996,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Stephani",
+      "saldo" : -1.1000000000000076,
+      "porcentaje" : 33.333333333333336
+    }, {
+      "nombre" : "Mark",
+      "saldo" : -11.90000000000001,
+      "porcentaje" : 33.333333333333336
+    } ]
+  },
+  "pagador" : {
+    "nombre" : "Stephani",
+    "saldo" : -1.1000000000000076,
+    "porcentaje" : 33.333333333333336
+  }
+} ]

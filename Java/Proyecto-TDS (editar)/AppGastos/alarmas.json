@@ -1,0 +1,47 @@
+[ {
+  "texto" : "Gastos comida semanales",
+  "fechaActivacion" : [ 2026, 1, 1 ],
+  "limite" : 100.0,
+  "categoria" : {
+    "categoria" : "Comida"
+  },
+  "activa" : true,
+  "estrategia" : {
+    "tipo" : "SEMANAL"
+  },
+  "ultimaNotificacion" : [ 2026, 1, 1 ]
+}, {
+  "texto" : "Gastos transporte mensuales",
+  "fechaActivacion" : [ 2026, 1, 1 ],
+  "limite" : 250.0,
+  "categoria" : {
+    "categoria" : "Transporte"
+  },
+  "activa" : true,
+  "estrategia" : {
+    "tipo" : "MENSUAL"
+  },
+  "ultimaNotificacion" : [ 2026, 1, 1 ]
+}, {
+  "texto" : "Gastos generales semanales",
+  "fechaActivacion" : [ 2026, 1, 1 ],
+  "limite" : 150.0,
+  "categoria" : null,
+  "activa" : true,
+  "estrategia" : {
+    "tipo" : "SEMANAL"
+  },
+  "ultimaNotificacion" : [ 2026, 1, 1 ]
+}, {
+  "texto" : "Gastos moto semanales",
+  "fechaActivacion" : [ 2026, 1, 1 ],
+  "limite" : 100.0,
+  "categoria" : {
+    "categoria" : "Moto"
+  },
+  "activa" : true,
+  "estrategia" : {
+    "tipo" : "SEMANAL"
+  },
+  "ultimaNotificacion" : null
+} ]

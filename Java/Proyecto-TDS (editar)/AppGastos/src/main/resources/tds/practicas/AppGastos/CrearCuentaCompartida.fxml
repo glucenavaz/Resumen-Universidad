@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="400.0" spacing="15.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.ControladorCrearCuentaCompartida">
+   <children>
+      <VBox alignment="CENTER_LEFT" style="-fx-border-color: #ecf0f1; -fx-border-width: 0 0 1 0;">
+         <children>
+            <Label text="Nueva Cuenta Compartida" textFill="#2c3e50">
+               <font>
+                  <Font name="Segoe UI Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="15.0" />
+         </padding>
+      </VBox>
+
+      <VBox alignment="CENTER_LEFT" spacing="5.0">
+         <children>
+            <Label text="Nombre del Grupo / Cuenta" textFill="#7f8c8d">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Label>
+            <TextField fx:id="txtNombreCuenta" prefHeight="35.0" promptText="Ej: Viaje a Roma, Piso Estudiantes..." style="-fx-background-radius: 5; -fx-border-color: #bdc3c7; -fx-border-radius: 5;" />
+         </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </VBox>
+
+      <VBox spacing="5.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Label text="Participantes (Mínimo 2)" textFill="#7f8c8d">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Label>
+
+            <HBox spacing="10.0">
+               <children>
+                  <TextField fx:id="txtNombreParticipante" prefHeight="35.0" promptText="Nombre del participante" style="-fx-background-radius: 5; -fx-border-color: #bdc3c7; -fx-border-radius: 5;" HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" onAction="#accionAnadirParticipante" prefHeight="35.0" prefWidth="80.0" style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-background-radius: 5; -fx-cursor: hand; -fx-font-weight: bold;" text="Añadir" />
+               </children>
+            </HBox>
+
+            <ListView fx:id="listaParticipantes" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-border-color: #ecf0f1; -fx-border-radius: 5;" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin></ListView>
+
+            <Label text="* Desmarca 'Equitativo' para editar los porcentajes manualmente." textFill="#95a5a6">
+               <font>
+                  <Font name="Segoe UI Italic" size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+
+      <CheckBox fx:id="checkEquitativo" mnemonicParsing="false" selected="true" text="Reparto equitativo (Divide gastos por igual)" textFill="#2c3e50">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font></CheckBox>
+
+      <HBox alignment="CENTER" spacing="20.0">
+         <children>
+            <Button cancelButton="true" mnemonicParsing="false" onAction="#accionCancelar" style="-fx-background-color: transparent; -fx-text-fill: #7f8c8d; -fx-cursor: hand;" text="Cancelar" />
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#accionGuardar" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #2ecc71; -fx-text-fill: white; -fx-background-radius: 5; -fx-cursor: hand; -fx-font-weight: bold;" text="Crear Cuenta">
+               <effect>
+                  <DropShadow color="#2ecc714d" offsetY="3.0" />
+               </effect></Button>
+         </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="30.0" right="30.0" top="20.0" />
+   </padding>
+</VBox>

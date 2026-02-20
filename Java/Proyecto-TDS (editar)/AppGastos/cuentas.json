@@ -1,0 +1,136 @@
+[ {
+  "nombre" : "Viaje a Mallorca",
+  "miembros" : [ {
+    "nombre" : "Ana",
+    "saldo" : 0.1,
+    "porcentaje" : -1.0
+  }, {
+    "nombre" : "Luis",
+    "saldo" : 10.1,
+    "porcentaje" : -1.0
+  }, {
+    "nombre" : "Yo",
+    "saldo" : 0.1,
+    "porcentaje" : -1.0
+  } ]
+}, {
+  "nombre" : "Gastos viajes",
+  "miembros" : [ {
+    "nombre" : "Alberto",
+    "saldo" : 0.0,
+    "porcentaje" : -1.0
+  }, {
+    "nombre" : "Eduardo",
+    "saldo" : 0.0,
+    "porcentaje" : -1.0
+  } ]
+}, {
+  "nombre" : "Viaje a roma",
+  "miembros" : [ {
+    "nombre" : "Claudia",
+    "saldo" : 0.0,
+    "porcentaje" : 60.0
+  }, {
+    "nombre" : "Edu",
+    "saldo" : 0.0,
+    "porcentaje" : 40.0
+  } ]
+}, {
+  "nombre" : "Comidas empresa",
+  "miembros" : [ {
+    "nombre" : "Javi",
+    "saldo" : 0.0,
+    "porcentaje" : 20.0
+  }, {
+    "nombre" : "Manu",
+    "saldo" : 0.0,
+    "porcentaje" : 80.0
+  } ]
+}, {
+  "nombre" : "Cena amigos",
+  "miembros" : [ {
+    "nombre" : "Diego",
+    "saldo" : 0.0,
+    "porcentaje" : 28.0
+  }, {
+    "nombre" : "Paco",
+    "saldo" : 0.0,
+    "porcentaje" : 20.0
+  }, {
+    "nombre" : "Ramon",
+    "saldo" : 0.0,
+    "porcentaje" : 22.0
+  }, {
+    "nombre" : "Pepe",
+    "saldo" : 0.0,
+    "porcentaje" : 30.0
+  } ]
+}, {
+  "nombre" : "Comidad navidad",
+  "miembros" : [ {
+    "nombre" : "Guille",
+    "saldo" : 342.5,
+    "porcentaje" : 30.0
+  }, {
+    "nombre" : "David",
+    "saldo" : -80.0,
+    "porcentaje" : 20.0
+  }, {
+    "nombre" : "Paula",
+    "saldo" : -262.5,
+    "porcentaje" : 50.0
+  } ]
+}, {
+  "nombre" : "SFD",
+  "miembros" : [ {
+    "nombre" : "ADADSAEW",
+    "saldo" : -66.66666666666667,
+    "porcentaje" : 33.333333333333336
+  }, {
+    "nombre" : "DADS",
+    "saldo" : 133.33333333333331,
+    "porcentaje" : 33.333333333333336
+  }, {
+    "nombre" : "DAWA",
+    "saldo" : -66.66666666666667,
+    "porcentaje" : 33.333333333333336
+  } ]
+}, {
+  "nombre" : "Compartida 2",
+  "miembros" : [ {
+    "nombre" : "Bob",
+    "saldo" : 5.033999999999999,
+    "porcentaje" : 20.0
+  }, {
+    "nombre" : "Betty",
+    "saldo" : 1.944,
+    "porcentaje" : 20.0
+  }, {
+    "nombre" : "Me",
+    "saldo" : -22.466,
+    "porcentaje" : 20.0
+  }, {
+    "nombre" : "Paco",
+    "saldo" : -5.456000000000001,
+    "porcentaje" : 20.0
+  }, {
+    "nombre" : "Greta",
+    "saldo" : 20.944000000000003,
+    "porcentaje" : 20.0
+  } ]
+}, {
+  "nombre" : "Compartida 1",
+  "miembros" : [ {
+    "nombre" : "Anthony",
+    "saldo" : 7.6666666666666625,
+    "porcentaje" : 33.333333333333336
+  }, {
+    "nombre" : "Stephani",
+    "saldo" : 9.56666666666666,
+    "porcentaje" : 33.333333333333336
+  }, {
+    "nombre" : "Mark",
+    "saldo" : -17.23333333333334,
+    "porcentaje" : 33.333333333333336
+  } ]
+} ]

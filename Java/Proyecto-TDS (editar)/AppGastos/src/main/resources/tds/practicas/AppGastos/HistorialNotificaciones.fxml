@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" prefHeight="450.0" prefWidth="650.0" spacing="15.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.ControladorHistorialNotificaciones">
+   <padding>
+      <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+   </padding>
+   <children>
+      <VBox alignment="CENTER_LEFT" style="-fx-border-color: #ecf0f1; -fx-border-width: 0 0 1 0;">
+         <children>
+            <Label text="Historial de Notificaciones" textFill="#2c3e50">
+               <font>
+                  <Font name="Segoe UI Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="15.0" />
+         </padding>
+      </VBox>
+      
+      <TableView fx:id="tablaNotificaciones" style="-fx-background-color: white; -fx-border-color: #ecf0f1;" VBox.vgrow="ALWAYS">
+       <columns>
+          <TableColumn fx:id="colFecha" prefWidth="100.0" style="-fx-alignment: CENTER;" text="Fecha" />
+          <TableColumn fx:id="colAlarma" prefWidth="150.0" text="Alarma Origen" />
+          <TableColumn fx:id="colMensaje" prefWidth="300.0" text="Mensaje" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</VBox>

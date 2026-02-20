@@ -1,0 +1,79 @@
+[ {
+  "mensaje" : "Has superado el límite de 100.0€ en Gastos comida semanales",
+  "fecha" : [ 2026, 1, 1 ],
+  "alarmaOrigen" : {
+    "texto" : "Gastos comida semanales",
+    "fechaActivacion" : [ 2026, 1, 1 ],
+    "limite" : 100.0,
+    "categoria" : {
+      "categoria" : "Comida"
+    },
+    "activa" : true,
+    "estrategia" : {
+      "tipo" : "SEMANAL"
+    },
+    "ultimaNotificacion" : [ 2026, 1, 1 ]
+  }
+}, {
+  "mensaje" : "Has superado el límite de 150.0€ en Gastos generales semanales",
+  "fecha" : [ 2026, 1, 1 ],
+  "alarmaOrigen" : {
+    "texto" : "Gastos generales semanales",
+    "fechaActivacion" : [ 2026, 1, 1 ],
+    "limite" : 150.0,
+    "categoria" : null,
+    "activa" : true,
+    "estrategia" : {
+      "tipo" : "SEMANAL"
+    },
+    "ultimaNotificacion" : null
+  }
+}, {
+  "mensaje" : "Has superado el límite de 250.0€ en Gastos transporte mensuales",
+  "fecha" : [ 2026, 1, 1 ],
+  "alarmaOrigen" : {
+    "texto" : "Gastos transporte mensuales",
+    "fechaActivacion" : [ 2026, 1, 1 ],
+    "limite" : 250.0,
+    "categoria" : {
+      "categoria" : "Transporte"
+    },
+    "activa" : true,
+    "estrategia" : {
+      "tipo" : "MENSUAL"
+    },
+    "ultimaNotificacion" : null
+  }
+}, {
+  "mensaje" : "Has superado el límite de 30.0€ en Gastos deporte semanales",
+  "fecha" : [ 2026, 1, 1 ],
+  "alarmaOrigen" : {
+    "texto" : "Gastos deporte semanales",
+    "fechaActivacion" : [ 2026, 1, 1 ],
+    "limite" : 30.0,
+    "categoria" : {
+      "categoria" : "Deportes"
+    },
+    "activa" : true,
+    "estrategia" : {
+      "tipo" : "SEMANAL"
+    },
+    "ultimaNotificacion" : null
+  }
+}, {
+  "mensaje" : "Has superado el límite de 500.0€ en nernverwv",
+  "fecha" : [ 2026, 1, 1 ],
+  "alarmaOrigen" : {
+    "texto" : "nernverwv",
+    "fechaActivacion" : [ 2026, 1, 1 ],
+    "limite" : 500.0,
+    "categoria" : {
+      "categoria" : "Coche"
+    },
+    "activa" : true,
+    "estrategia" : {
+      "tipo" : "SEMANAL"
+    },
+    "ultimaNotificacion" : null
+  }
+} ]

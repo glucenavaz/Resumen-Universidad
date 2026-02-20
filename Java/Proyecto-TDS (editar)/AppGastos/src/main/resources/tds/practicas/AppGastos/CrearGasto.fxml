@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="480.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.ControladorCrearGasto">
+
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="70.0" spacing="15.0" style="-fx-background-color: #ffffff; -fx-border-color: #ecf0f1; -fx-border-width: 0 0 1 0;" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Nuevo Gasto" textFill="#2c3e50">
+               <font>
+                  <Font name="Segoe UI Bold" size="22.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="30.0" right="30.0" />
+         </padding>
+      </HBox>
+   </top>
+
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane hgap="20.0" vgap="20.0">
+               <columnConstraints>
+                  <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="120.0" minWidth="10.0" prefWidth="90.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="250.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+
+                  <Label text="Concepto:" textFill="#7f8c8d">
+                     <font><Font name="Segoe UI" size="14.0" /></font>
+                  </Label>
+                  <TextField fx:id="txtConcepto" promptText="Ej: Cena, Gasolina..." style="-fx-background-radius: 5; -fx-border-color: #bdc3c7; -fx-border-radius: 5; -fx-padding: 8;" GridPane.columnIndex="1" />
+
+                  <Label text="Cantidad (€):" textFill="#7f8c8d" GridPane.rowIndex="1">
+                     <font><Font name="Segoe UI" size="14.0" /></font>
+                  </Label>
+                  <TextField fx:id="txtCantidad" promptText="0.00" style="-fx-background-radius: 5; -fx-border-color: #bdc3c7; -fx-border-radius: 5; -fx-padding: 8;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+                  <Label text="Categoría:" textFill="#7f8c8d" GridPane.rowIndex="2">
+                     <font><Font name="Segoe UI" size="14.0" /></font>
+                  </Label>
+                  <HBox alignment="CENTER_LEFT" spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <children>
+                        <ComboBox fx:id="comboCategoria" maxWidth="1.7976931348623157E308" prefHeight="35.0" prefWidth="200.0" promptText="Selecciona..." style="-fx-background-radius: 5; -fx-border-color: #bdc3c7; -fx-border-radius: 5; -fx-background-color: white;" HBox.hgrow="ALWAYS" />
+                        <Button mnemonicParsing="false" onAction="#accionNuevaCategoria" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-background-radius: 5; -fx-cursor: hand;" text="+">
+                           <tooltip>
+                              <Tooltip text="Crear nueva categoría" />
+                           </tooltip>
+                           <font><Font name="System Bold" size="14.0" /></font>
+                        </Button>
+                     </children>
+                  </HBox>
+
+                  <Label text="Fecha:" textFill="#7f8c8d" GridPane.rowIndex="3">
+                     <font><Font name="Segoe UI" size="14.0" /></font>
+                  </Label>
+                  <DatePicker fx:id="dateFecha" maxWidth="1.7976931348623157E308" prefHeight="35.0" style="-fx-font-size: 14;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+                  <Label fx:id="lblPagador" text="Pagado por:" textFill="#7f8c8d" GridPane.rowIndex="4">
+                     <font><Font name="Segoe UI" size="14.0" /></font>
+                  </Label>
+                  <ComboBox fx:id="comboPagador" maxWidth="1.7976931348623157E308" prefHeight="35.0" promptText="Selecciona miembro..." style="-fx-background-radius: 5; -fx-border-color: #bdc3c7; -fx-border-radius: 5; -fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+                  <HBox alignment="CENTER_RIGHT" spacing="15.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <children>
+                        <Button defaultButton="true" mnemonicParsing="false" onAction="#accionGuardar" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: #2ecc71; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5; -fx-cursor: hand;" text="Guardar">
+                           <effect>
+                              <DropShadow color="#2ecc714d" offsetY="3.0" />
+                           </effect>
+                        </Button>
+                     </children>
+                  </HBox>
+
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="40.0" top="20.0" />
+               </padding>
+            </GridPane>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
